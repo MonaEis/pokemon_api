@@ -1,0 +1,37 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  img {
+    width: 65vw;
+  }
+}
+
+.search-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.search-bar input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  width: 75%;
+  height: 40px;
+  font-family: var(--font-roboto);
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.2s ease-in-out;
+  outline: none;
+  &:focus {
+    border-color: #0077d9;
+  }
+}

@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Roboto-ExtraBold';
+  src: url('/Roboto/static/Roboto-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('/Roboto/static/Roboto-Regular.ttf');
+}
+
+:root {
+  --font-roboto: 'Roboto';
+  --font-extra-bold: 'Roboto-ExtraBold';
+}
+
+body {
+  background-color: #ccdadd;
+  font-family: var(--font-roboto);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  font-size: 10px;
+}
+
+/* .menu {
+  background-color: #ccdadd;
+  padding: 5rem 10rem;
+}
+
+.menu .menu-logo {
+  height: 5rem;
+}
+
+.menu .type-btn-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+} */

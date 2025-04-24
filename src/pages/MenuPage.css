@@ -1,0 +1,55 @@
+.menu {
+  background-color: #ccdadd;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu .menu-field {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.menu .menu-logo {
+  height: 5rem;
+  align-self: flex-start;
+}
+
+.menu h2 {
+  color: #ffcb05;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: var(--font-extra-bold);
+  font-size: 4rem;
+  text-shadow: -4px -4px 0 #2c72b8, 4px -4px 0 #2c72b8, -4px 4px 0 #2c72b8,
+    4px 4px 0 #2c72b8, 0px -5px 0 #2c72b8, 0px 5px 0 #2c72b8, -5px 0px 0 #2c72b8,
+    5px 0px 0 #2c72b8;
+  margin-bottom: 2rem;
+}
+
+.menu .type-btn-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.menu button {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  color: white;
+  font-family: var(--font-roboto);
+  text-transform: uppercase;
+  background-color: #2c72b8;
+  border: 3px solid #ffcb05;
+}
+
+.menu button.selected {
+  background-color: #ffcb05;
+  border: 3px solid #2c72b8;
+  color: black;
+}
