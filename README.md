@@ -21,13 +21,6 @@ Das Design der Anwendung ist minimalistisch und benutzerfreundlich gestaltet. Es
 - **CSS Modules:** Für modulare und wartbare Styles.
 - **Responsive Design:** Unterstützt Desktop- und Mobilgeräte.
 
-![project in tablet](iPad-Air-4-pokemon-api-rust.vercel.app.png)
-
-
-## Deployment
-Bereitstellung auf Vercel:
-https://pokemon-api-rust.vercel.app/
-
 
 ## Installation
 1. Klone das Repository:
@@ -69,14 +62,7 @@ https://pokemon-api-rust.vercel.app/
   - Vorder- und Rückansicht des Pokémon
 - **Klick auf das Bild:** Spielt den Pokémon-Sound ab.
 
-## Deployment
-Die Anwendung ist für Vercel konfiguriert. Um sie zu deployen:
 
-1. Stelle sicher, dass die Datei `vercel.json` korrekt konfiguriert ist.
-2. Führe den folgenden Befehl aus:
-    ```bash
-    vercel --prod
-    ```
 
 ## Projektstruktur
 Die wichtigsten Ordner und Dateien:
@@ -99,6 +85,13 @@ Die wichtigsten Ordner und Dateien:
 - React Router DOM
 - TypeScript
 - Vite
+
+![project in tablet](iPad-Air-4-pokemon-api-rust.vercel.app.png)
+
+
+## Deployment
+Bereitstellung auf Vercel:
+https://pokemon-api-rust.vercel.app/
 
 ## Bekannte Probleme
 - **Ladezeiten:** Bei langsamer Internetverbindung kann das Laden der Pokémon-Daten länger dauern.
