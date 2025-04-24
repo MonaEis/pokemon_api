@@ -25,20 +25,9 @@ Das Design der Anwendung ist minimalistisch und benutzerfreundlich gestaltet. Es
 
 
 ## Deployment
-Die Anwendung ist für eine einfache Bereitstellung auf Vercel konfiguriert. 
+Bereitstellung auf Vercel:
+https://pokemon-api-rust.vercel.app/
 
-### Schritte zur Bereitstellung
-1. Stelle sicher, dass alle Änderungen im Repository gepusht wurden.
-2. Verknüpfe das Repository mit deinem Vercel-Konto.
-3. Vercel erkennt automatisch die Vite-Konfiguration und erstellt die Anwendung.
-4. Nach erfolgreicher Bereitstellung ist die Anwendung unter der von Vercel bereitgestellten URL verfügbar.
-
-### Alternative Deployment-Optionen
-- **Netlify:** Unterstützt ebenfalls Vite-Projekte und bietet ähnliche Funktionen wie Vercel.
-- **Docker:** Erstelle ein Docker-Image und deploye es auf einer beliebigen Plattform.
-## Voraussetzungen
-- Node.js (Version 16 oder höher)
-- npm oder ein anderer Paketmanager wie Yarn
 
 ## Installation
 1. Klone das Repository:
