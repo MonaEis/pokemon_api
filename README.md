@@ -1,4 +1,4 @@
-# Anwenderdokumentation: Pokémon API Projekt
+# Projekt: Pokémon API
 
 ![projekt in 3 devices](laptopTabletPhone-pokemon-api.png)
 
